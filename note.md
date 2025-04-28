@@ -1,0 +1,12 @@
+v drwxr-xr-x 1 neolux neolux 32 Apr 26 21:19 'Bearded Seal'
+x drwxr-xr-x 1 neolux neolux 44 Apr 26 21:19 'Beluga White Whale'
+x drwxr-xr-x 1 neolux neolux 60 Apr 26 21:19 'Harp Seal'
+v drwxr-xr-x 1 neolux neolux 36 Apr 26 21:19 'Humpback Whale'
+v drwxr-xr-x 1 neolux neolux 32 Apr 26 21:19 'Killer Whale'
+v drwxr-xr-x 1 neolux neolux 54 Apr 26 21:19 'Long-Finned Pilot Whale'
+x drwxr-xr-x 1 neolux neolux 48 Apr 26 21:19 'Northern Right Whale'
+x drwxr-xr-x 1 neolux neolux 62 Apr 26 21:19 'Pantropical Spotted Dolphin'
+x drwxr-xr-x 1 neolux neolux 26 Apr 26 21:19 'Ross Seal'
+v drwxr-xr-x 1 neolux neolux 30 Apr 26 21:19 'Sperm Whale'
+v drwxr-xr-x 1 neolux neolux 20 Apr 26 21:19  Walrus
+v drwxr-xr-x 1 neolux neolux 48 Apr 26 21:19 'White-beaked Dolphin'
