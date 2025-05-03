@@ -1,0 +1,17 @@
+torch
+torchaudio
+
+onnx
+onnxruntime
+# onnx-sim
+
+tqdm
+rich
+
+librosa
+wavio
+
+scikit-learn
+matplotlib
+seaborn
+

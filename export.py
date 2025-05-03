@@ -90,7 +90,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_type", type=str, default="conv_rnn",
                         choices=["conv1d", "conv_rnn", "lstm", "transformer"],
                         help="Model type (default: lstm)")
-    parser.add_argument("--model_path", type=str, default='runs/task1/best_model.pth',
+    parser.add_argument("--model_path", type=str, default='runs/task4/best_model.pth',
                         help="Path to trained model file (e.g., runs/task1/best_model.pth)")
     parser.add_argument("--output_path", type=str, default=None,
                         help="Path to save ONNX model (default: model_path with .onnx extension)")
