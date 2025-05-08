@@ -415,7 +415,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_type", type=str, default="resnet",
                         choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn"],
                         help="Model type for PyTorch models (default: conv_rnn)")
-    parser.add_argument("--model_path", type=str, default="runs/task8/best_model.pth",
+    parser.add_argument("--model_path", type=str, default="runs/task5/best_model.pth",
                         help="Path to PyTorch (.pth) or ONNX (.onnx) model file")
     parser.add_argument("--dataset_path", type=str, default="./clean",
                         help="Path to dataset directory to infer classes (default: ./clean)")
@@ -425,7 +425,7 @@ if __name__ == "__main__":
                         help="Microphone device (e.g., hw:2)")
     parser.add_argument("--input_stream", type=str, default=None,
                         help="Server address for audio stream")
-    parser.add_argument("--input_folder", type=str, default='audio2025_rec',
+    parser.add_argument("--input_folder", type=str, default='clean',
                         help="Path to folder containing WAV files for prediction or test set evaluation")
     parser.add_argument("--sample_rate", type=int, default=16000,
                         help="Target sample rate for model (default: 16000)")
