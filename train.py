@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use('Agg')
 import argparse
 import os
 import torch
@@ -13,12 +15,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 import shutil
-
 from tqdm.rich import tqdm
 import warnings
 from tqdm import TqdmExperimentalWarning
 
 warnings.filterwarnings("ignore", category=TqdmExperimentalWarning)
+
 
 def get_task_dir(output_dir):
     """Create a unique taskN directory in output_dir."""
@@ -69,12 +71,38 @@ def plot_confusion_matrix(cm, class_names, save_path):
     plt.close()
 
 
+def save_model_config(args, task_dir, class_names):
+    """Save model configuration and dataset details."""
+    config = [
+        f"Model Type: {args.model_type}",
+        f"Dataset Path: {args.dataset_path}",
+        f"Classes: {', '.join(class_names)}",
+        f"Number of Classes: {len(class_names)}",
+        f"Sample Rate: {args.sample_rate}",
+        f"Batch Size: {args.batch_size}",
+        f"Epochs: {args.epochs}",
+        f"Learning Rate: {args.lr}",
+        f"Hidden Size: {args.hidden_size}",
+        f"Num Layers: {args.num_layers}",
+        f"D Model (Transformer): {args.d_model}",
+        f"Nhead (Transformer): {args.nhead}",
+        f"Pretrained Model: {args.pretrained_model if args.pretrained_model else 'None'}",
+        f"Output Directory: {task_dir}"
+    ]
+    with open(os.path.join(task_dir, "model_config.txt"), "w") as f:
+        f.write("\n".join(config))
+
+
 def train_model(args):
     # Set device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     # Load dataset
-    dataset = CleanAudioDataset(root_dir=args.dataset_path, sample_rate=args.sample_rate, duration=1.0)
+    try:
+        dataset = CleanAudioDataset(root_dir=args.dataset_path, sample_rate=args.sample_rate, duration=1.0)
+    except ValueError as e:
+        raise ValueError(f"Failed to load dataset: {str(e)}")
+    
     n_classes = len(dataset.get_class_names())
     class_names = dataset.get_class_names()
     
@@ -88,8 +116,8 @@ def train_model(args):
     train_sampler = SubsetRandomSampler(train_indices)
     val_sampler = SubsetRandomSampler(val_indices)
     
-    train_loader = DataLoader(dataset, batch_size=args.batch_size, sampler=train_sampler, num_workers=2)
-    val_loader = DataLoader(dataset, batch_size=args.batch_size, sampler=val_sampler, num_workers=2)
+    train_loader = DataLoader(dataset, batch_size=args.batch_size, sampler=train_sampler, num_workers=0)
+    val_loader = DataLoader(dataset, batch_size=args.batch_size, sampler=val_sampler, num_workers=0)
     
     # Create model
     model_kwargs = {
@@ -97,7 +125,7 @@ def train_model(args):
         "sample_rate": args.sample_rate,
         "in_channels": 1,
     }
-    if args.model_type in ["conv_rnn", "lstm"]:
+    if args.model_type in ["conv_rnn", "lstm", "resnet_rnn"]:
         model_kwargs.update({
             "hidden_size": args.hidden_size,
             "num_layers": args.num_layers
@@ -131,6 +159,9 @@ def train_model(args):
     task_dir = get_task_dir(args.output_dir)
     writer = SummaryWriter(os.path.join(task_dir, "tensorboard"))
     
+    # Save model configuration
+    save_model_config(args, task_dir, class_names)
+    
     # Training loop
     train_losses, val_losses = [], []
     train_f1s, val_f1s = [], []
@@ -144,7 +175,7 @@ def train_model(args):
             train_loss = 0.0
             train_preds, train_labels = [], []
             
-            for waveforms, labels in tqdm(train_loader):
+            for waveforms, labels in tqdm(train_loader, desc=f"Epoch {epoch+1}/{args.epochs} [Train]"):
                 waveforms, labels = waveforms.to(device), labels.to(device)
                 optimizer.zero_grad()
                 outputs = model(waveforms)
@@ -166,7 +197,7 @@ def train_model(args):
             val_preds, val_labels = [], []
             
             with torch.no_grad():
-                for waveforms, labels in tqdm(val_loader):
+                for waveforms, labels in tqdm(val_loader, desc=f"Epoch {epoch+1}/{args.epochs} [Val]"):
                     waveforms, labels = waveforms.to(device), labels.to(device)
                     outputs = model(waveforms)
                     loss = criterion(outputs, labels)
@@ -206,7 +237,7 @@ def train_model(args):
             val_f1s.append(val_f1)
             
             print(f"Epoch {epoch+1}/{args.epochs}, Train Loss: {train_loss:.4f}, Val Loss: {val_loss:.4f}, "
-                f"Train F1: {train_f1:.4f}, Val F1: {val_f1:.4f}")
+                  f"Train F1: {train_f1:.4f}, Val F1: {val_f1:.4f}")
     except KeyboardInterrupt:
         print("Training interrupted. Saving current model...")
     
@@ -230,26 +261,26 @@ def train_model(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train audio classification model")
     parser.add_argument("--model_type", type=str, default="resnet",
-                        choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn"],
-                        help="Model type (default: lstm)")
+                        choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn", "sincnet"],
+                        help="Model type (default: resnet_rnn)")
     parser.add_argument("--dataset_path", type=str, default="./clean",
                         help="Path to dataset directory (default: ./clean)")
-    parser.add_argument("--batch_size", type=int, default=54,
+    parser.add_argument("--batch_size", type=int, default=32,
                         help="Batch size (default: 32)")
     parser.add_argument("--sample_rate", type=int, default=16000,
                         help="Sample rate of audio (default: 16000)")
-    parser.add_argument("--epochs", type=int, default=80,
-                        help="Number of epochs (default: 10)")
+    parser.add_argument("--epochs", type=int, default=50,
+                        help="Number of epochs (default: 50)")
     parser.add_argument("--output_dir", type=str, default="./runs",
                         help="Output directory for task folders (default: ./runs)")
     parser.add_argument("--lr", type=float, default=0.001,
                         help="Learning rate (default: 0.001)")
     parser.add_argument("--hidden_size", type=int, default=128,
-                        help="Hidden size for conv_rnn and lstm (default: 128)")
+                        help="Hidden size for conv_rnn, lstm, and resnet_rnn (default: 128)")
     parser.add_argument("--num_layers", type=int, default=2,
-                        help="Number of layers for conv_rnn, lstm, transformer (default: 2)")
+                        help="Number of layers for conv_rnn, lstm, transformer, and resnet_rnn (default: 2)")
     parser.add_argument("--d_model", type=int, default=64,
-                        help="Embedding dimension for transformer (default: 128)")
+                        help="Embedding dimension for transformer (default: 64)")
     parser.add_argument("--nhead", type=int, default=4,
                         help="Number of attention heads for transformer (default: 4)")
     parser.add_argument("--pretrained_model", type=str, default=None,

@@ -343,7 +343,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_type", type=str, default="resnet",
                         choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn"],
                         help="Model type for PyTorch models (default: conv_rnn)")
-    parser.add_argument("--model_path", type=str, default="runs/task8/best_model.pth",
+    parser.add_argument("--model_path", type=str, default="runs/task9/best_model.pth",
                         help="Path to PyTorch (.pth) or ONNX (.onnx) model file")
     parser.add_argument("--dataset_path", type=str, default="./clean",
                         help="Path to dataset directory to infer classes (default: ./clean)")
@@ -376,7 +376,7 @@ if __name__ == "__main__":
     parser.add_argument("--filter_type", type=str, default="majority",
                         choices=["none", "kalman", "majority", "exponential_moving_average"],
                         help="Filter type for post-processing predictions (default: majority)")
-    parser.add_argument("--filter_window", type=int, default=10,
+    parser.add_argument("--filter_window", type=int, default=15,
                         help="Window size for majority voting filter (default: 5)")
     parser.add_argument("--filter_process_noise", type=float, default=0.01,
                         help="Process noise for Kalman filter (default: 0.01)")
