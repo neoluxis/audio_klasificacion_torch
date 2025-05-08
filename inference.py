@@ -358,7 +358,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_type", type=str, default="resnet",
                         choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn", "sincnet"],
                         help="Model type for PyTorch models (default: resnet)")
-    parser.add_argument("--model_path", type=str, default="runs/task5/best_model.pth",
+    parser.add_argument("--model_path", type=str, default="runs/task1/best_model.pth",
                         help="Path to PyTorch (.pth) or ONNX (.onnx) model file")
     parser.add_argument("--dataset_path", type=str, default="./clean",
                         help="Path to dataset directory to infer classes (default: ./clean)")
