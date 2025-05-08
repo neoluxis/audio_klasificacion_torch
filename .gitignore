@@ -6,4 +6,4 @@ clean/
 
 *.pyc
 __pycache__/
-*.csv
+outputs
