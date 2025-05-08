@@ -229,8 +229,8 @@ def train_model(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train audio classification model")
-    parser.add_argument("--model_type", type=str, default="conv_rnn",
-                        choices=["conv1d", "conv_rnn", "lstm", "transformer"],
+    parser.add_argument("--model_type", type=str, default="resnet_rnn",
+                        choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn"],
                         help="Model type (default: lstm)")
     parser.add_argument("--dataset_path", type=str, default="./clean",
                         help="Path to dataset directory (default: ./clean)")

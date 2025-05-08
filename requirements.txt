@@ -3,6 +3,7 @@ torchaudio
 
 onnx
 onnxruntime
+onnxruntime-gpu
 # onnx-sim
 
 tqdm

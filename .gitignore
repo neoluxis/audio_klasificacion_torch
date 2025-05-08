@@ -3,3 +3,6 @@
 clean/
 
 .VSCodeCounter
+
+*.pyc
+__pycache__/

@@ -1,0 +1,2136 @@
+File,Window,Time Start,Time End,Predicted,Ground Truth
+clean/Bearded Seal/Bearded Seal_0.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_1.wav,0,0.0,1.0,Humpback Whale,Bearded Seal
+clean/Bearded Seal/Bearded Seal_2.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_3.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_4.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_5.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_6.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_7.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_8.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_9.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_10.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_11.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_12.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_13.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_14.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_15.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_16.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_17.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_18.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_19.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_20.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_21.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_22.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_23.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_24.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_25.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_26.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_27.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_28.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_29.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_30.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_31.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_32.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_33.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_34.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_35.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_36.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_37.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_38.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_39.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_40.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_41.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_42.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_43.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_44.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_45.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_46.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_47.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_48.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_49.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_50.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_51.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_52.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_53.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_54.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_55.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_56.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_57.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_58.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_59.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_60.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_61.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_62.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_63.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_64.wav,0,0.0,1.0,Killer Whale,Bearded Seal
+clean/Bearded Seal/Bearded Seal_65.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_66.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_67.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_68.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_69.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_70.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_71.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_72.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_73.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_74.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_75.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_76.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_77.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_78.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_79.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_80.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_81.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_82.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_83.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_84.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_85.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_86.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_87.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_88.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_89.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_90.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_91.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_92.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_93.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_94.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_95.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_96.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_97.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_98.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_99.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_100.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_101.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_102.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_103.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_104.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_105.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_106.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_107.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_108.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_109.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_110.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_111.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_112.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_113.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_114.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_115.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_116.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_117.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_118.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_119.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_120.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_121.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_122.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_123.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_124.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_125.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_126.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_127.wav,0,0.0,1.0,Northern Right Whale,Bearded Seal
+clean/Bearded Seal/Bearded Seal_128.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_129.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_130.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_131.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_132.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_133.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_134.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_135.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_136.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_137.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_138.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_139.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_140.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_141.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_142.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_143.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_144.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_145.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_146.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_147.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_148.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_149.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_150.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_151.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Bearded Seal/Bearded Seal_152.wav,0,0.0,1.0,Bearded Seal,Bearded Seal
+clean/Beluga White Whale/Beluga White Whale_0.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_1.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_2.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_3.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_4.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_5.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_6.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_7.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_8.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_9.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_10.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_11.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_12.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_13.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_14.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_15.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_16.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_17.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_18.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_19.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_20.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_21.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_22.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_23.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_24.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_25.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_26.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_27.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_28.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_29.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_30.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_31.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_32.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_33.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_34.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_35.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_36.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_37.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_38.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_39.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_40.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_41.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_42.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_43.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_44.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_45.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_46.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_47.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_48.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_49.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_50.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_51.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_52.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_53.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_54.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_55.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_56.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_57.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_58.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_59.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_60.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_61.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_62.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_63.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_64.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_65.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_66.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_67.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_68.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_69.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_70.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_71.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_72.wav,0,0.0,1.0,White-beaked Dolphin,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_73.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_74.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_75.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_76.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_77.wav,0,0.0,1.0,Killer Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_78.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_79.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_80.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_81.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_82.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_83.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_84.wav,0,0.0,1.0,khong,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_85.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_86.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_87.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_88.wav,0,0.0,1.0,Killer Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_89.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_90.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_91.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_92.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_93.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_94.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_95.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_96.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_97.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_98.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_99.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_100.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_101.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_102.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_103.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_104.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_105.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_106.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_107.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_108.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_109.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_110.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_111.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_112.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_113.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_114.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_115.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_116.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_117.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_118.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_119.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_120.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_121.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_122.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_123.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_124.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_125.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_126.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_127.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_128.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_129.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_130.wav,0,0.0,1.0,Walrus,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_131.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_132.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_133.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_134.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_135.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_136.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_137.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_138.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_139.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_140.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_141.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_142.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_143.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_144.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_145.wav,0,0.0,1.0,Beluga White Whale,Beluga White Whale
+clean/Beluga White Whale/Beluga White Whale_146.wav,0,0.0,1.0,khong,Beluga White Whale
+clean/Harp Seal/Harp Seal 1_0.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_1.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_2.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_3.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_4.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_5.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_6.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_7.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_8.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_9.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_10.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_11.wav,0,0.0,1.0,khong,Harp Seal
+clean/Harp Seal/Harp Seal 1_12.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_13.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_14.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_15.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_16.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_17.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_18.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_19.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_20.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_21.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_22.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_23.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_24.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_25.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_26.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_27.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_28.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_29.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_30.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_31.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_32.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_33.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_34.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_35.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_36.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_37.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_38.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_39.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_40.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_41.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_42.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_43.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_44.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_45.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_46.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_47.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_48.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_49.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_50.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_51.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_52.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_53.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_54.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_55.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_56.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_57.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_58.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_59.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_60.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_61.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_62.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_63.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_64.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_65.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_66.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_67.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_68.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_69.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_70.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_71.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_72.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_73.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_74.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_75.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_76.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_77.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_78.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_79.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_80.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_81.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_82.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_83.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_84.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_85.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_86.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_87.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_88.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_89.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_90.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_91.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_92.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_93.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_94.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_95.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_96.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_97.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_98.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_99.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_100.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_101.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_102.wav,0,0.0,1.0,Humpback Whale,Harp Seal
+clean/Harp Seal/Harp Seal 1_103.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_104.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_105.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_106.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_107.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_108.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_109.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_110.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_111.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_112.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_113.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_114.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_115.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_116.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_117.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_118.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_119.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_120.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_121.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_122.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_123.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_124.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_125.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_126.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_127.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_128.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_129.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_130.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_131.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_132.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_133.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_134.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_135.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_136.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_137.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_138.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_139.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_140.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_141.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_142.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_143.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_144.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_145.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_146.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_147.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_148.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_149.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_150.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_151.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_152.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_153.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_154.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_155.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_156.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_157.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_158.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_159.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_160.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_161.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_162.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_163.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_164.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_165.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_166.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_167.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_168.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_169.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_170.wav,0,0.0,1.0,Long-Finned Pilot Whale,Harp Seal
+clean/Harp Seal/Harp Seal 1_171.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 1_172.wav,0,0.0,1.0,Sperm Whale,Harp Seal
+clean/Harp Seal/Harp Seal 2_0.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_1.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_2.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_3.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_4.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_5.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_6.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_7.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_8.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_9.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_10.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_11.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_12.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_13.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_14.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_15.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_16.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_17.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_18.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_19.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_20.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_21.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_22.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_23.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_24.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_25.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_26.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_27.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_28.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_29.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_30.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_31.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_32.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_33.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Harp Seal/Harp Seal 2_34.wav,0,0.0,1.0,Harp Seal,Harp Seal
+clean/Humpback Whale/Humpback Whale_0.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_1.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_2.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_3.wav,0,0.0,1.0,Killer Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_4.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_5.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_6.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_7.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_8.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_9.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_10.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_11.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_12.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_13.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_14.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_15.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_16.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_17.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_18.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_19.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_20.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_21.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_22.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_23.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_24.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_25.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_26.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_27.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_28.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_29.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_30.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_31.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_32.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_33.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_34.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_35.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_36.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_37.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_38.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_39.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_40.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_41.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_42.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_43.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_44.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_45.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_46.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_47.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_48.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_49.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_50.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_51.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_52.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_53.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_54.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_55.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_56.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_57.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_58.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_59.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_60.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_61.wav,0,0.0,1.0,White-beaked Dolphin,Humpback Whale
+clean/Humpback Whale/Humpback Whale_62.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_63.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_64.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_65.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_66.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_67.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_68.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_69.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_70.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_71.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_72.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_73.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_74.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_75.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_76.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_77.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_78.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_79.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_80.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_81.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_82.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_83.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_84.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_85.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_86.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_87.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_88.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_89.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_90.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_91.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_92.wav,0,0.0,1.0,White-beaked Dolphin,Humpback Whale
+clean/Humpback Whale/Humpback Whale_93.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_94.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_95.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_96.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_97.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_98.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_99.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_100.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_101.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_102.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_103.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_104.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_105.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_106.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_107.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_108.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_109.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_110.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_111.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_112.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_113.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_114.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_115.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_116.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_117.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_118.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_119.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_120.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_121.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_122.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_123.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_124.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_125.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_126.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_127.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_128.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_129.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_130.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_131.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_132.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_133.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_134.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_135.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_136.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_137.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_138.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_139.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_140.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_141.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_142.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_143.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_144.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_145.wav,0,0.0,1.0,Killer Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_146.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_147.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_148.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_149.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_150.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_151.wav,0,0.0,1.0,Harp Seal,Humpback Whale
+clean/Humpback Whale/Humpback Whale_152.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_153.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_154.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_155.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_156.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_157.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_158.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_159.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_160.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_161.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_162.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_163.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_164.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_165.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_166.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_167.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_168.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_169.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_170.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_171.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_172.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_173.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_174.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_175.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_176.wav,0,0.0,1.0,Beluga White Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_177.wav,0,0.0,1.0,Harp Seal,Humpback Whale
+clean/Humpback Whale/Humpback Whale_178.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_179.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_180.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_181.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_182.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_183.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_184.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_185.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_186.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_187.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_188.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_189.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_190.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_191.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_192.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_193.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_194.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_195.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_196.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_197.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_198.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_199.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_200.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_201.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_202.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_203.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_204.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_205.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_206.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_207.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_208.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_209.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_210.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_211.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_212.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_213.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_214.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_215.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_216.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_217.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Humpback Whale/Humpback Whale_218.wav,0,0.0,1.0,Humpback Whale,Humpback Whale
+clean/Killer Whale/Killer Whale_0.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_1.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_2.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_3.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_4.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_5.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_6.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_7.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_8.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_9.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_10.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_11.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_12.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_13.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_14.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_15.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_16.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_17.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_18.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_19.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_20.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_21.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_22.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_23.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_24.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_25.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_26.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_27.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_28.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_29.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_30.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_31.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_32.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_33.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_34.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_35.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_36.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_37.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_38.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_39.wav,0,0.0,1.0,Humpback Whale,Killer Whale
+clean/Killer Whale/Killer Whale_40.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_41.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_42.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_43.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_44.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_45.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_46.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_47.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_48.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_49.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_50.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_51.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_52.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_53.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_54.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_55.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_56.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_57.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_58.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_59.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_60.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_61.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_62.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_63.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_64.wav,0,0.0,1.0,White-beaked Dolphin,Killer Whale
+clean/Killer Whale/Killer Whale_65.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_66.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_67.wav,0,0.0,1.0,Ross Seal,Killer Whale
+clean/Killer Whale/Killer Whale_68.wav,0,0.0,1.0,Ross Seal,Killer Whale
+clean/Killer Whale/Killer Whale_69.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_70.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_71.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_72.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_73.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_74.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_75.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_76.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_77.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_78.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_79.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_80.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_81.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_82.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_83.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_84.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_85.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_86.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_87.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_88.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_89.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_90.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_91.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_92.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_93.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_94.wav,0,0.0,1.0,Beluga White Whale,Killer Whale
+clean/Killer Whale/Killer Whale_95.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_96.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_97.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_98.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_99.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_100.wav,0,0.0,1.0,khong,Killer Whale
+clean/Killer Whale/Killer Whale_101.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_102.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_103.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_104.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_105.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_106.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_107.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_108.wav,0,0.0,1.0,Humpback Whale,Killer Whale
+clean/Killer Whale/Killer Whale_109.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_110.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_111.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_112.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_113.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_114.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_115.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_116.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_117.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_118.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_119.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_120.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_121.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_122.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_123.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_124.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_125.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_126.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_127.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_128.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_129.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_130.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_131.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_132.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_133.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_134.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_135.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_136.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_137.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_138.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_139.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_140.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_141.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_142.wav,0,0.0,1.0,Beluga White Whale,Killer Whale
+clean/Killer Whale/Killer Whale_143.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_144.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_145.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_146.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_147.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_148.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_149.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_150.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_151.wav,0,0.0,1.0,Humpback Whale,Killer Whale
+clean/Killer Whale/Killer Whale_152.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_153.wav,0,0.0,1.0,Humpback Whale,Killer Whale
+clean/Killer Whale/Killer Whale_154.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_155.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_156.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_157.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_158.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_159.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_160.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_161.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_162.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_163.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_164.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_165.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_166.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_167.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_168.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_169.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Killer Whale/Killer Whale_170.wav,0,0.0,1.0,Killer Whale,Killer Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_0.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_1.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_2.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_3.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_4.wav,0,0.0,1.0,Sperm Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_5.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_6.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_7.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_8.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_9.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_10.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_11.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_12.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_13.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_14.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_15.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_16.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_17.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_18.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_19.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_20.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_21.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_22.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_23.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_24.wav,0,0.0,1.0,Humpback Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_25.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_26.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_27.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_28.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_29.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_30.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_31.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_32.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_33.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_34.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_35.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_36.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_37.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_38.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_39.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_40.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_41.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_42.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_43.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_44.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_45.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_46.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_47.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_48.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_49.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_50.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_51.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_52.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_53.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_54.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_55.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_56.wav,0,0.0,1.0,Killer Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_57.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_58.wav,0,0.0,1.0,Killer Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_59.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_60.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_61.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_62.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_63.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_64.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_65.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_66.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_67.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_68.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_69.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_70.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_71.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_72.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_73.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_74.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_75.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_76.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_77.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_78.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_79.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_80.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_81.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_82.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_83.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_84.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_85.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_86.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_87.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_88.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_89.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_90.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_91.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_92.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_93.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_94.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_95.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_96.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_97.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_98.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_99.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_100.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_101.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_102.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_103.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_104.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_105.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_106.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_107.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_108.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_109.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_110.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_111.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_112.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_113.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_114.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_115.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_116.wav,0,0.0,1.0,Killer Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_117.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_118.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_119.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_120.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_121.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_122.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_123.wav,0,0.0,1.0,Killer Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_124.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_125.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_126.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_127.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_128.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_129.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Long-Finned Pilot Whale/Long-Finned Pilot Whale_130.wav,0,0.0,1.0,Long-Finned Pilot Whale,Long-Finned Pilot Whale
+clean/Northern Right Whale/Northern Right Whale_0.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_1.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_2.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_3.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_4.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_5.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_6.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_7.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_8.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_9.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_10.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_11.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_12.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_13.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_14.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_15.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_16.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_17.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_18.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_19.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_20.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_21.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_22.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_23.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_24.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_25.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_26.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_27.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_28.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_29.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_30.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_31.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_32.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_33.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_34.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_35.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_36.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_37.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_38.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_39.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_40.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_41.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_42.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_43.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_44.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_45.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_46.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_47.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_48.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_49.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_50.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_51.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_52.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_53.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_54.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_55.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_56.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_57.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_58.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_59.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_60.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_61.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_62.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_63.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_64.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_65.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_66.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_67.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_68.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_69.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_70.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_71.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_72.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_73.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_74.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_75.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_76.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_77.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_78.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_79.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_80.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_81.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_82.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_83.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_84.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_85.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_86.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_87.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_88.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_89.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_90.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_91.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_92.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_93.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_94.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_95.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_96.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_97.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_98.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_99.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_100.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_101.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_102.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_103.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_104.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_105.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_106.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_107.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_108.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_109.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_110.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_111.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_112.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_113.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_114.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_115.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_116.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_117.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_118.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_119.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_120.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_121.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_122.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_123.wav,0,0.0,1.0,Humpback Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_124.wav,0,0.0,1.0,Killer Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_125.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_126.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_127.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_128.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_129.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_130.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_131.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_132.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_133.wav,0,0.0,1.0,Harp Seal,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_134.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_135.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_136.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_137.wav,0,0.0,1.0,Humpback Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_138.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_139.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_140.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_141.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_142.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_143.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_144.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_145.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_146.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_147.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_148.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_149.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_150.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_151.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_152.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_153.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_154.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Northern Right Whale/Northern Right Whale_155.wav,0,0.0,1.0,Northern Right Whale,Northern Right Whale
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_0.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_1.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_2.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_3.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_4.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_5.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_6.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_7.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_8.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_9.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_10.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_11.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_12.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_13.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_14.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_15.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_16.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_17.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_18.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_19.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_20.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_21.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_22.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_23.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_24.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_25.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_26.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_27.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_28.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_29.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_30.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_31.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_32.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_33.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_34.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_35.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_36.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_37.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_38.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_39.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_40.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_41.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_42.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_43.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_44.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_45.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_46.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_47.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_48.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_49.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_50.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_51.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_52.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_53.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_54.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_55.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_56.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_57.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_58.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_59.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_60.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_61.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_62.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_63.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_64.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_65.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_66.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_67.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_68.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_69.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_70.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_71.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_72.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_73.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_74.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_75.wav,0,0.0,1.0,khong,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_76.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_77.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_78.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_79.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_80.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_81.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_82.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_83.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_84.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_85.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_86.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_87.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_88.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_89.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_90.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_91.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_92.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_93.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_94.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_95.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_96.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_97.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_98.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_99.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_100.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_101.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_102.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_103.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_104.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_105.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_106.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_107.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_108.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_109.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_110.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_111.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_112.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_113.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_114.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_115.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_116.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_117.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_118.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_119.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_120.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_121.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_122.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_123.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_124.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_125.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_126.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_127.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_128.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_129.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_130.wav,0,0.0,1.0,khong,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_131.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_132.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_133.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_134.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_135.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_136.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_137.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_138.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_139.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_140.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_141.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_142.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_143.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_144.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_145.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_146.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_147.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_148.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_149.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_150.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_151.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_152.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_153.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Pantropical Spotted Dolphin/Pantropical Spotted Dolphin_154.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Pantropical Spotted Dolphin
+clean/Ross Seal/Ross Seal_0.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_1.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_2.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_3.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_4.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_5.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_6.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_7.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_8.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_9.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_10.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_11.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_12.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_13.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_14.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_15.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_16.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_17.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_18.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_19.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_20.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_21.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_22.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_23.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_24.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_25.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_26.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_27.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_28.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_29.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_30.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_31.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_32.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_33.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_34.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_35.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_36.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_37.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_38.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_39.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_40.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_41.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_42.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_43.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_44.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_45.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_46.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_47.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_48.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_49.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_50.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_51.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_52.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_53.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_54.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_55.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_56.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_57.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_58.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_59.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_60.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_61.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_62.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_63.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_64.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_65.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_66.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_67.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_68.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_69.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_70.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_71.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_72.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_73.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_74.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_75.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_76.wav,0,0.0,1.0,Long-Finned Pilot Whale,Ross Seal
+clean/Ross Seal/Ross Seal_77.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_78.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_79.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_80.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_81.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_82.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_83.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_84.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_85.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_86.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_87.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_88.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_89.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_90.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_91.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_92.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_93.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_94.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Ross Seal
+clean/Ross Seal/Ross Seal_95.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_96.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_97.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_98.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_99.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_100.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_101.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_102.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_103.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_104.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_105.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_106.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_107.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_108.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_109.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_110.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_111.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_112.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_113.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_114.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_115.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_116.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_117.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_118.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_119.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_120.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_121.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_122.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_123.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_124.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_125.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_126.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_127.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_128.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_129.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Ross Seal/Ross Seal_130.wav,0,0.0,1.0,Ross Seal,Ross Seal
+clean/Sperm Whale/Sperm Whale_0.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_1.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_2.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_3.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_4.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_5.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_6.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_7.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_8.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_9.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_10.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_11.wav,0,0.0,1.0,Beluga White Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_12.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_13.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_14.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_15.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_16.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_17.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_18.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_19.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_20.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_21.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_22.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_23.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_24.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_25.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_26.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_27.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_28.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_29.wav,0,0.0,1.0,Killer Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_30.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_31.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_32.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_33.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_34.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_35.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_36.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_37.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_38.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_39.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_40.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_41.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_42.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_43.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_44.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_45.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_46.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_47.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_48.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_49.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_50.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_51.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_52.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_53.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_54.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_55.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_56.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_57.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_58.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_59.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_60.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_61.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_62.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_63.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_64.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_65.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_66.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_67.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_68.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_69.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_70.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_71.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_72.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_73.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_74.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_75.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_76.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_77.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_78.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_79.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_80.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_81.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_82.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_83.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_84.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_85.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_86.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_87.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_88.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_89.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_90.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_91.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_92.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_93.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_94.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_95.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_96.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_97.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_98.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_99.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_100.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_101.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_102.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_103.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_104.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_105.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_106.wav,0,0.0,1.0,Northern Right Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_107.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_108.wav,0,0.0,1.0,Long-Finned Pilot Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_109.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_110.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_111.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_112.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_113.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_114.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_115.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_116.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_117.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_118.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_119.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_120.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_121.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_122.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_123.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_124.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_125.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_126.wav,0,0.0,1.0,Pantropical Spotted Dolphin,Sperm Whale
+clean/Sperm Whale/Sperm Whale_127.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_128.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_129.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_130.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_131.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_132.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_133.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_134.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_135.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_136.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_137.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_138.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_139.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_140.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_141.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_142.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_143.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_144.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_145.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_146.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_147.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_148.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_149.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_150.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_151.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_152.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_153.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_154.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_155.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_156.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_157.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_158.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_159.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_160.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_161.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_162.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_163.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Sperm Whale/Sperm Whale_164.wav,0,0.0,1.0,Sperm Whale,Sperm Whale
+clean/Walrus/Walrus_0.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_1.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_2.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_3.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_4.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_5.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_6.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_7.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_8.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_9.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_10.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_11.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_12.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_13.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_14.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_15.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_16.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_17.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_18.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_19.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_20.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_21.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_22.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_23.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_24.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_25.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_26.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_27.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_28.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_29.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_30.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_31.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_32.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_33.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_34.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_35.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_36.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_37.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_38.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_39.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_40.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_41.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_42.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_43.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_44.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_45.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_46.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_47.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_48.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_49.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_50.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_51.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_52.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_53.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_54.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_55.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_56.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_57.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_58.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_59.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_60.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_61.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_62.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_63.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_64.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_65.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_66.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_67.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_68.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_69.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_70.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_71.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_72.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_73.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_74.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_75.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_76.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_77.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_78.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_79.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_80.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_81.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_82.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_83.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_84.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_85.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_86.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_87.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_88.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_89.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_90.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_91.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_92.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_93.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_94.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_95.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_96.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_97.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_98.wav,0,0.0,1.0,Beluga White Whale,Walrus
+clean/Walrus/Walrus_99.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_100.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_101.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_102.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_103.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_104.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_105.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_106.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_107.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_108.wav,0,0.0,1.0,khong,Walrus
+clean/Walrus/Walrus_109.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_110.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_111.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_112.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_113.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_114.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_115.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_116.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_117.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_118.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_119.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_120.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_121.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_122.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_123.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_124.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_125.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_126.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_127.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_128.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_129.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_130.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_131.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_132.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_133.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_134.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_135.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_136.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_137.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_138.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_139.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_140.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_141.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_142.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_143.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_144.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_145.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_146.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_147.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_148.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_149.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_150.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_151.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_152.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_153.wav,0,0.0,1.0,Walrus,Walrus
+clean/Walrus/Walrus_154.wav,0,0.0,1.0,Walrus,Walrus
+clean/White-beaked Dolphin/White-beaked Dolphin_0.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_1.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_2.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_3.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_4.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_5.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_6.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_7.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_8.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_9.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_10.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_11.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_12.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_13.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_14.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_15.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_16.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_17.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_18.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_19.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_20.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_21.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_22.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_23.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_24.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_25.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_26.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_27.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_28.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_29.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_30.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_31.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_32.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_33.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_34.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_35.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_36.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_37.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_38.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_39.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_40.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_41.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_42.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_43.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_44.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_45.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_46.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_47.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_48.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_49.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_50.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_51.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_52.wav,0,0.0,1.0,Killer Whale,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_53.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_54.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_55.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_56.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_57.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_58.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_59.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_60.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_61.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_62.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_63.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_64.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_65.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_66.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_67.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_68.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_69.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_70.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_71.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_72.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_73.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_74.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_75.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_76.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_77.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_78.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_79.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_80.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_81.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_82.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_83.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_84.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_85.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_86.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_87.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_88.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_89.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_90.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_91.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_92.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_93.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_94.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_95.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_96.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_97.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_98.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_99.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_100.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_101.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_102.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_103.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_104.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_105.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_106.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_107.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_108.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_109.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_110.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_111.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_112.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_113.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_114.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_115.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_116.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_117.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_118.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_119.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_120.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_121.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_122.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_123.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_124.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_125.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_126.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_127.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_128.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_129.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_130.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_131.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_132.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_133.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_134.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_135.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_136.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_137.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_138.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_139.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_140.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_141.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_142.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_143.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_144.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_145.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_146.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_147.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_148.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_149.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_150.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_151.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_152.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_153.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_154.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_155.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_156.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_157.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_158.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_159.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_160.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_161.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_162.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_163.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_164.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_165.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_166.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_167.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_168.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_169.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_170.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_171.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_172.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_173.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_174.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_175.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_176.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_177.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_178.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_179.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/White-beaked Dolphin/White-beaked Dolphin_180.wav,0,0.0,1.0,White-beaked Dolphin,White-beaked Dolphin
+clean/khong/khong_0.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_1.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_2.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_3.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_4.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_5.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_6.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_7.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_8.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_9.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_10.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_11.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_12.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_13.wav,0,0.0,1.0,Bearded Seal,khong
+clean/khong/khong_14.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_15.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_16.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_17.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_18.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_19.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_20.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_21.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_22.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_23.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_24.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_25.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_26.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_27.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_28.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_29.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_30.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_31.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_32.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_33.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_34.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_35.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_36.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_37.wav,0,0.0,1.0,Pantropical Spotted Dolphin,khong
+clean/khong/khong_38.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_39.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_40.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_41.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_42.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_43.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_44.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_45.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_46.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_47.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_48.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_49.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_50.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_51.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_52.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_53.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_54.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_55.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_56.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_57.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_58.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_59.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_60.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_61.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_62.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_63.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_64.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_65.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_66.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_67.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_68.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_69.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_70.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_71.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_72.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_73.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_74.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_75.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_76.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_77.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_78.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_79.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_80.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_81.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_82.wav,0,0.0,1.0,Walrus,khong
+clean/khong/khong_83.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_84.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_85.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_86.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_87.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_88.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_89.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_90.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_91.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_92.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_93.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_94.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_95.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_96.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_97.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_98.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_99.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_100.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_101.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_102.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_103.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_104.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_105.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_106.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_107.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_108.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_109.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_110.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_111.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_112.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_113.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_114.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_115.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_116.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_117.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_118.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_119.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_120.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_121.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_122.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_123.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_124.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_125.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_126.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_127.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_128.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_129.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_130.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_131.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_132.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_133.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_134.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_135.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_136.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_137.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_138.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_139.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_140.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_141.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_142.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_143.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_144.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_145.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_146.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_147.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_148.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_149.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_150.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_151.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_152.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_153.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_154.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_155.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_156.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_157.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_158.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_159.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_160.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_161.wav,0,0.0,1.0,khong,khong
+clean/khong/khong_162.wav,0,0.0,1.0,khong,khong

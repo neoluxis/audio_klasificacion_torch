@@ -6,6 +6,7 @@ import onnxruntime as ort
 import numpy as np
 import sounddevice as sd
 import socket
+import csv
 from dataset import CleanAudioDataset
 from model import ModelFactory
 from collections import Counter
@@ -73,7 +74,7 @@ def load_model(args, device, n_classes):
         return model, None, torch.nn.Softmax(dim=1)
 
 
-def predict_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, class_names, device, verbose, output_file=None):
+def predict_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, class_names, device, verbose, output_file=None, output_predictions=True):
     """Predict on a WAV file in real-time 1-second windows."""
     try:
         waveform, orig_sr = torchaudio.load(wav_path)
@@ -87,13 +88,12 @@ def predict_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, cla
     hop_samples = int(hop_size * sample_rate)  # e.g., 1.0s = 16000 samples
     num_samples = len(waveform)
     
-    # Log WAV info
     duration = num_samples / sample_rate
     num_windows = max(1, int(np.ceil(num_samples / hop_samples)))
     print(f"Processing WAV file: {wav_path}")
     print(f"Sample Rate: {sample_rate} Hz, Duration: {duration:.1f}s, Samples: {num_samples}, Expected windows: {num_windows}")
     
-    predictions = []
+    results = []
     window_idx = 0
     start = 0
     while start < num_samples:
@@ -102,8 +102,6 @@ def predict_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, cla
         window = torch.from_numpy(window).unsqueeze(0)  # [1, samples]
         window = prepare_window(window, window_samples)  # [1, 16000]
         window = window.astype(np.float32).reshape(1, 1, window_samples)  # [1, 1, 16000]
-        
-        print(f"Processing window {window_idx} (start: {start}, end: {end}, shape: {window.shape})")
         
         try:
             if input_name:  # ONNX
@@ -119,27 +117,30 @@ def predict_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, cla
             pred_class = class_names[pred_idx]
             time_start = start / sample_rate
             time_end = end / sample_rate
-            if verbose:
-                prob_str = ", ".join([f"{c}: {p:.3f}" for c, p in zip(class_names, probs[0])])
-                print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class} ({prob_str})")
-            else:
-                print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class}")
             
-            predictions.append(pred_class)
-            if output_file:
-                with open(output_file, 'a') as f:
-                    f.write(f"{wav_path}, Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): {pred_class}\n")
+            if output_predictions:
+                if verbose:
+                    prob_str = ", ".join([f"{c}: {p:.3f}" for c, p in zip(class_names, probs[0])])
+                    print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class} ({prob_str})")
+                else:
+                    print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class}")
+                
+                if output_file:
+                    with open(output_file, 'a', newline='') as f:
+                        writer = csv.writer(f)
+                        writer.writerow([wav_path, window_idx, time_start, time_end, pred_class])
             
+            results.append((probs, pred_class, time_start, time_end))
             window_idx += 1
             start += hop_samples
         except Exception as e:
             raise RuntimeError(f"Error processing window {window_idx} ({start/sample_rate:.1f}-{end/sample_rate:.1f}s): {str(e)}")
     
     print(f"Processed {window_idx} windows")
-    return predictions
+    return results
 
 
-def predict_folder(model, input_name, softmax, folder_path, sample_rate, hop_size, class_names, device, verbose, output_file=None):
+def predict_folder(model, input_name, softmax, folder_path, sample_rate, hop_size, class_names, device, verbose, output_file=None, output_predictions=True):
     """Predict on all WAV files in a folder, or evaluate as a test set if structure matches dataset."""
     if not os.path.isdir(folder_path):
         raise ValueError(f"Folder not found: {folder_path}")
@@ -154,6 +155,7 @@ def predict_folder(model, input_name, softmax, folder_path, sample_rate, hop_siz
         print(f"Detected dataset-like structure in {folder_path}. Evaluating as test set.")
         y_true = []
         y_pred = []
+        all_results = []
         for class_name in subdirs:
             if class_name not in class_names:
                 print(f"Skipping unknown class directory: {class_name}")
@@ -164,47 +166,63 @@ def predict_folder(model, input_name, softmax, folder_path, sample_rate, hop_siz
                     continue
                 wav_path = os.path.join(class_dir, wav_file)
                 print(f"\nEvaluating {wav_path} (Ground Truth: {class_name})")
-                predictions = predict_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, class_names, device, verbose, output_file)
+                results = predict_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, class_names, device, verbose, output_file=None, output_predictions=False)
+                all_results.append((wav_path, results))
+                # Write CSV with ground truth
+                if output_file:
+                    with open(output_file, 'a', newline='') as f:
+                        writer = csv.writer(f)
+                        for window_idx, (_, pred_class, time_start, time_end) in enumerate(results):
+                            writer.writerow([wav_path, window_idx, time_start, time_end, pred_class, class_name])
                 # Use most frequent prediction for the file
+                predictions = [r[1] for r in results]  # pred_class
                 if predictions:
                     most_common_pred = Counter(predictions).most_common(1)[0][0]
                     y_true.append(class_name)
                     y_pred.append(most_common_pred)
-                    print(f"File Prediction: {most_common_pred} (Ground Truth: {class_name})")
+                    if output_predictions:
+                        print(f"File Prediction: {most_common_pred} (Ground Truth: {class_name})")
         
         # Compute metrics
         if y_true:
             accuracy = np.mean([y_true[i] == y_pred[i] for i in range(len(y_true))])
-            print(f"\nTest Set Evaluation:")
-            print(f"Accuracy: {accuracy:.4f} ({sum(1 for t, p in zip(y_true, y_pred) if t == p)}/{len(y_true)})")
-            
-            # Confusion matrix
-            cm = np.zeros((len(class_names), len(class_names)), dtype=int)
-            class_to_idx = {name: idx for idx, name in enumerate(class_names)}
-            for t, p in zip(y_true, y_pred):
-                cm[class_to_idx[t], class_to_idx[p]] += 1
-            
-            print("\nConfusion Matrix:")
-            print("Rows: Ground Truth, Columns: Predicted")
-            header = " " * 20 + " ".join(f"{name[:8]:8}" for name in class_names)
-            print(header)
-            for i, row in enumerate(cm):
-                row_str = f"{class_names[i][:18]:18} | {' '.join(f'{x:8}' for x in row)}"
-                print(row_str)
+            if output_predictions:
+                print(f"\nTest Set Evaluation:")
+                print(f"Accuracy: {accuracy:.4f} ({sum(1 for t, p in zip(y_true, y_pred) if t == p)}/{len(y_true)})")
+                
+                # Confusion matrix
+                cm = np.zeros((len(class_names), len(class_names)), dtype=int)
+                class_to_idx = {name: idx for idx, name in enumerate(class_names)}
+                for t, p in zip(y_true, y_pred):
+                    cm[class_to_idx[t], class_to_idx[p]] += 1
+                
+                print("\nConfusion Matrix:")
+                print("Rows: Ground Truth, Columns: Predicted")
+                header = " " * 20 + " ".join(f"{name[:8]:8}" for name in class_names)
+                print(header)
+                for i, row in enumerate(cm):
+                    row_str = f"{class_names[i][:18]:18} | {' '.join(f'{x:8}' for x in row)}"
+                    print(row_str)
         else:
-            print("No valid WAV files found in dataset structure.")
+            if output_predictions:
+                print("No valid WAV files found in dataset structure.")
+        
+        return all_results
     
     else:  # Non-dataset structure: predict recursively
         print(f"Non-dataset structure detected in {folder_path}. Predicting recursively on all WAV files.")
+        all_results = []
         for root, _, files in os.walk(folder_path):
             for file in files:
                 if file.lower().endswith('.wav'):
                     wav_path = os.path.join(root, file)
                     print(f"\nPredicting on {wav_path}")
-                    predict_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, class_names, device, verbose, output_file)
+                    results = predict_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, class_names, device, verbose, output_file, output_predictions)
+                    all_results.append((wav_path, results))
+        return all_results
 
 
-def predict_stream(model, input_name, softmax, stream_type, stream_source, input_sr, target_sr, class_names, device, verbose, output_file=None):
+def predict_stream(model, input_name, softmax, stream_type, stream_source, input_sr, target_sr, class_names, device, verbose, output_file=None, output_predictions=True):
     """Predict on microphone or TCP stream."""
     chunk_samples = int(input_sr)  # 1-second at input_sr
     buffer = np.zeros(chunk_samples, dtype=np.float32)
@@ -220,6 +238,7 @@ def predict_stream(model, input_name, softmax, stream_type, stream_source, input
     
     window_idx = 0
     temp_buffer = []  # Dynamic buffer for TCP stream
+    results = []
     try:
         while True:
             if stream_type == "mic":
@@ -228,7 +247,6 @@ def predict_stream(model, input_name, softmax, stream_type, stream_source, input
                     print("Warning: Audio buffer overflowed")
                 buffer = data[:, 0]  # Mono
             else:  # stream
-                # Read available data
                 try:
                     raw_data = sock.recv(8192)  # Smaller chunks to avoid blocking
                     if not raw_data:
@@ -238,12 +256,10 @@ def predict_stream(model, input_name, softmax, stream_type, stream_source, input
                 except BlockingIOError:
                     continue  # No data available yet
                 
-                # Process full chunks
                 while len(temp_buffer) >= chunk_samples:
                     buffer = np.array(temp_buffer[:chunk_samples], dtype=np.float32)
                     temp_buffer = temp_buffer[chunk_samples:]
-            
-                    # Process buffer
+                    
                     wav = downsample_mono(buffer, input_sr, target_sr)
                     wav = prepare_window(torch.from_numpy(wav), target_samples=target_sr)  # [1, 16000]
                     wav = wav.astype(np.float32).reshape(1, 1, 16000)  # [1, 1, 16000]
@@ -262,16 +278,20 @@ def predict_stream(model, input_name, softmax, stream_type, stream_source, input
                         pred_class = class_names[pred_idx]
                         time_start = window_idx * 1.0
                         time_end = time_start + 1.0
-                        if verbose:
-                            prob_str = ", ".join([f"{c}: {p:.3f}" for c, p in zip(class_names, probs[0])])
-                            print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class} ({prob_str})")
-                        else:
-                            print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class}")
                         
-                        if output_file:
-                            with open(output_file, 'a') as f:
-                                f.write(f"Stream, Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): {pred_class}\n")
+                        if output_predictions:
+                            if verbose:
+                                prob_str = ", ".join([f"{c}: {p:.3f}" for c, p in zip(class_names, probs[0])])
+                                print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class} ({prob_str})")
+                            else:
+                                print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class}")
+                            
+                            if output_file:
+                                with open(output_file, 'a', newline='') as f:
+                                    writer = csv.writer(f)
+                                    writer.writerow([stream_type.capitalize(), window_idx, time_start, time_end, pred_class])
                         
+                        results.append((probs, pred_class, time_start, time_end))
                         window_idx += 1
                     except Exception as e:
                         raise RuntimeError(f"Error processing window {window_idx}: {str(e)}")
@@ -297,16 +317,20 @@ def predict_stream(model, input_name, softmax, stream_type, stream_source, input
                 pred_class = class_names[pred_idx]
                 time_start = window_idx * 1.0
                 time_end = time_start + 1.0
-                if verbose:
-                    prob_str = ", ".join([f"{c}: {p:.3f}" for c, p in zip(class_names, probs[0])])
-                    print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class} ({prob_str})")
-                else:
-                    print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class}")
                 
-                if output_file:
-                    with open(output_file, 'a') as f:
-                        f.write(f"Stream, Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): {pred_class}\n")
+                if output_predictions:
+                    if verbose:
+                        prob_str = ", ".join([f"{c}: {p:.3f}" for c, p in zip(class_names, probs[0])])
+                        print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class} ({prob_str})")
+                    else:
+                        print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class}")
+                    
+                    if output_file:
+                        with open(output_file, 'a', newline='') as f:
+                            writer = csv.writer(f)
+                            writer.writerow([stream_type.capitalize(), window_idx, time_start, time_end, pred_class])
                 
+                results.append((probs, pred_class, time_start, time_end))
                 window_idx += 1
             except Exception as e:
                 raise RuntimeError(f"Error processing window {window_idx}: {str(e)}")
@@ -322,6 +346,7 @@ def predict_stream(model, input_name, softmax, stream_type, stream_source, input
         else:
             sock.close()
     print(f"Processed {window_idx} windows")
+    return results
 
 
 def main(args):
@@ -348,6 +373,27 @@ def main(args):
     except Exception as e:
         raise RuntimeError(f"Error loading dataset: {str(e)}")
     
+    # Create output directory
+    if args.output_file:
+        os.makedirs(os.path.dirname(args.output_file), exist_ok=True)
+    
+    # Initialize CSV file
+    if args.output_file:
+        if args.input_folder:
+            # Check if folder is a test set
+            subdirs = [d for d in os.listdir(args.input_folder) if os.path.isdir(os.path.join(args.input_folder, d))]
+            class_names_set = set(class_names)
+            subdirs_set = set(subdirs)
+            overlap = len(class_names_set & subdirs_set) / max(len(subdirs), 1)
+            is_test_set = overlap >= 0.8 and subdirs
+            headers = ["File", "Window", "Time Start", "Time End", "Predicted", "Ground Truth"] if is_test_set else ["Source", "Window", "Time Start", "Time End", "Predicted"]
+        else:
+            headers = ["Source", "Window", "Time Start", "Time End", "Predicted"]
+        
+        with open(args.output_file, 'w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(headers)
+    
     # Load model
     model, input_name, softmax = load_model(args, device, n_classes)
     
@@ -367,9 +413,9 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Predict audio classification using PyTorch or ONNX model")
     parser.add_argument("--model_type", type=str, default="conv_rnn",
-                        choices=["conv1d", "conv_rnn", "lstm", "transformer"],
+                        choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn"],
                         help="Model type for PyTorch models (default: conv_rnn)")
-    parser.add_argument("--model_path", type=str, default="runs/task4/best_model.onnx",
+    parser.add_argument("--model_path", type=str, default="runs/task4/best_model.pth",
                         help="Path to PyTorch (.pth) or ONNX (.onnx) model file")
     parser.add_argument("--dataset_path", type=str, default="./clean",
                         help="Path to dataset directory to infer classes (default: ./clean)")
@@ -378,7 +424,7 @@ if __name__ == "__main__":
     parser.add_argument("--input_mic", type=str, default=None,
                         help="Microphone device (e.g., hw:2)")
     parser.add_argument("--input_stream", type=str, default=None,
-                        help="Server address for audio stream (default: neolux5:40918)")
+                        help="Server address for audio stream")
     parser.add_argument("--input_folder", type=str, default='audio2025_rec',
                         help="Path to folder containing WAV files for prediction or test set evaluation")
     parser.add_argument("--sample_rate", type=int, default=16000,
@@ -397,8 +443,8 @@ if __name__ == "__main__":
                         help="Number of attention heads for transformer (default: 4)")
     parser.add_argument("--verbose", action="store_true",
                         help="Print probability scores for each class")
-    parser.add_argument("--output_file", type=str, default=None,
-                        help="Path to output file for saving predictions")
+    parser.add_argument("--output_file", type=str, default="outputs/predict.csv",
+                        help="Path to output CSV file for saving predictions (default: outputs/predict.csv)")
     
     args = parser.parse_args()
     main(args)

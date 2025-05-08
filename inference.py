@@ -3,6 +3,8 @@ import os
 import numpy as np
 from collections import Counter, deque
 from predict import predict_wav, predict_stream, predict_folder, load_model, CleanAudioDataset
+import torch
+import csv
 
 
 class FilterFactory:
@@ -18,6 +20,9 @@ class FilterFactory:
         elif filter_type == "majority":
             window_size = kwargs.get("window_size", 5)
             return MajorityVotingFilter(window_size)
+        elif filter_type == "exponential_moving_average":
+            alpha = kwargs.get("alpha", 0.3)
+            return ExponentialMovingAverageFilter(n_classes, alpha)
         else:
             raise ValueError(f"Unknown filter type: {filter_type}")
 
@@ -85,11 +90,34 @@ class MajorityVotingFilter:
         # Add to window
         self.predictions.append(pred_class)
         # Majority vote
-        if len(self.predictions) == 0:
+        if not self.predictions:
             return pred_class, probs[0]
         majority_class = Counter(self.predictions).most_common(1)[0][0]
         # Return probabilities of the raw prediction for consistency
         return majority_class, probs[0]
+
+
+class ExponentialMovingAverageFilter:
+    """Exponential moving average filter for smoothing class probabilities."""
+    def __init__(self, n_classes, alpha=0.3):
+        self.n_classes = n_classes
+        self.alpha = alpha
+        self.smoothed_probs = np.ones(n_classes) / n_classes  # Initial uniform distribution
+
+    def process(self, probs, class_names):
+        probs = probs[0]  # [n_classes]
+        # Ensure probs sum to 1 and are non-negative
+        probs = np.clip(probs, 1e-8, 1.0)
+        probs /= np.sum(probs)
+        
+        # Update smoothed probabilities
+        self.smoothed_probs = self.alpha * probs + (1 - self.alpha) * self.smoothed_probs
+        # Ensure smoothed_probs sum to 1
+        self.smoothed_probs = np.clip(self.smoothed_probs, 1e-8, 1.0)
+        self.smoothed_probs /= np.sum(self.smoothed_probs)
+        
+        pred_idx = np.argmax(self.smoothed_probs)
+        return class_names[pred_idx], self.smoothed_probs
 
 
 def infer_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, class_names, device, verbose, output_file, filter_obj):
@@ -108,8 +136,9 @@ def infer_wav(model, input_name, softmax, wav_path, sample_rate, hop_size, class
             print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class}")
         
         if output_file:
-            with open(output_file, 'a') as f:
-                f.write(f"{wav_path}, Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): {pred_class}\n")
+            with open(output_file, 'a', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([wav_path, window_idx, time_start, time_end, pred_class])
         
         filtered_results.append(pred_class)
     
@@ -132,8 +161,9 @@ def infer_stream(model, input_name, softmax, stream_type, stream_source, input_s
             print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class}")
         
         if output_file:
-            with open(output_file, 'a') as f:
-                f.write(f"Stream, Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): {pred_class}\n")
+            with open(output_file, 'a', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([stream_type.capitalize(), window_idx, time_start, time_end, pred_class])
         
         filtered_results.append(pred_class)
     
@@ -160,7 +190,8 @@ def infer_folder(model, input_name, softmax, folder_path, sample_rate, hop_size,
             filter_obj = FilterFactory.create_filter(args.filter_type, len(class_names),
                                                     window_size=args.filter_window,
                                                     process_noise=args.filter_process_noise,
-                                                    measurement_noise=args.filter_measurement_noise)
+                                                    measurement_noise=args.filter_measurement_noise,
+                                                    alpha=args.filter_alpha)
             # Extract class name from path
             class_name = os.path.basename(os.path.dirname(wav_path))
             if class_name not in class_names:
@@ -178,8 +209,9 @@ def infer_folder(model, input_name, softmax, folder_path, sample_rate, hop_size,
                     print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class}")
                 
                 if output_file:
-                    with open(output_file, 'a') as f:
-                        f.write(f"{wav_path}, Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): {pred_class}\n")
+                    with open(output_file, 'a', newline='') as f:
+                        writer = csv.writer(f)
+                        writer.writerow([wav_path, window_idx, time_start, time_end, pred_class, class_name])
                 
                 predictions.append(pred_class)
             
@@ -218,7 +250,8 @@ def infer_folder(model, input_name, softmax, folder_path, sample_rate, hop_size,
             filter_obj = FilterFactory.create_filter(args.filter_type, len(class_names),
                                                     window_size=args.filter_window,
                                                     process_noise=args.filter_process_noise,
-                                                    measurement_noise=args.filter_measurement_noise)
+                                                    measurement_noise=args.filter_measurement_noise,
+                                                    alpha=args.filter_alpha)
             print(f"\nPredicting on {wav_path}")
             for window_idx, (probs, _, time_start, time_end) in enumerate(results):
                 pred_class, filtered_probs = filter_obj.process(probs, class_names)
@@ -229,8 +262,9 @@ def infer_folder(model, input_name, softmax, folder_path, sample_rate, hop_size,
                     print(f"Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): Predicted: {pred_class}")
                 
                 if output_file:
-                    with open(output_file, 'a') as f:
-                        f.write(f"{wav_path}, Window {window_idx} ({time_start:.1f}-{time_end:.1f}s): {pred_class}\n")
+                    with open(output_file, 'a', newline='') as f:
+                        writer = csv.writer(f)
+                        writer.writerow([wav_path, window_idx, time_start, time_end, pred_class])
 
 
 def main(args):
@@ -242,6 +276,10 @@ def main(args):
     # Validate hop_size
     if args.hop_size <= 0:
         raise ValueError("hop_size must be greater than 0 seconds")
+    
+    # Validate filter_alpha
+    if args.filter_alpha <= 0 or args.filter_alpha >= 1:
+        raise ValueError("filter_alpha must be between 0 and 1")
     
     # Set device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -257,6 +295,26 @@ def main(args):
     except Exception as e:
         raise RuntimeError(f"Error loading dataset: {str(e)}")
     
+    # Create output directory
+    if args.output_file:
+        os.makedirs(os.path.dirname(args.output_file), exist_ok=True)
+    
+    # Initialize CSV file
+    if args.output_file:
+        if args.input_folder:
+            subdirs = [d for d in os.listdir(args.input_folder) if os.path.isdir(os.path.join(args.input_folder, d))]
+            class_names_set = set(class_names)
+            subdirs_set = set(subdirs)
+            overlap = len(class_names_set & subdirs_set) / max(len(subdirs), 1)
+            is_test_set = overlap >= 0.8 and subdirs
+            headers = ["File", "Window", "Time Start", "Time End", "Predicted", "Ground Truth"] if is_test_set else ["Source", "Window", "Time Start", "Time End", "Predicted"]
+        else:
+            headers = ["Source", "Window", "Time Start", "Time End", "Predicted"]
+        
+        with open(args.output_file, 'w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(headers)
+    
     # Load model
     model, input_name, softmax = load_model(args, device, n_classes)
     
@@ -264,7 +322,8 @@ def main(args):
     filter_obj = FilterFactory.create_filter(args.filter_type, n_classes,
                                             window_size=args.filter_window,
                                             process_noise=args.filter_process_noise,
-                                            measurement_noise=args.filter_measurement_noise)
+                                            measurement_noise=args.filter_measurement_noise,
+                                            alpha=args.filter_alpha)
     
     # Predict with filtering
     if args.input_wav:
@@ -282,9 +341,9 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Predict audio classification with filtering using PyTorch or ONNX model")
     parser.add_argument("--model_type", type=str, default="conv_rnn",
-                        choices=["conv1d", "conv_rnn", "lstm", "transformer"],
+                        choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn"],
                         help="Model type for PyTorch models (default: conv_rnn)")
-    parser.add_argument("--model_path", type=str, default="runs/task1/best_model.pth",
+    parser.add_argument("--model_path", type=str, default="runs/task4/best_model.pth",
                         help="Path to PyTorch (.pth) or ONNX (.onnx) model file")
     parser.add_argument("--dataset_path", type=str, default="./clean",
                         help="Path to dataset directory to infer classes (default: ./clean)")
@@ -292,9 +351,9 @@ if __name__ == "__main__":
                         help="Path to input WAV file")
     parser.add_argument("--input_mic", type=str, default=None,
                         help="Microphone device (e.g., hw:2)")
-    parser.add_argument("--input_stream", type=str, default="neolux5:40918",
-                        help="Server address for audio stream (default: neolux5:40918)")
-    parser.add_argument("--input_folder", type=str, default=None,
+    parser.add_argument("--input_stream", type=str, default=None,
+                        help="Server address for audio stream")
+    parser.add_argument("--input_folder", type=str, default='clean',
                         help="Path to folder containing WAV files for prediction or test set evaluation")
     parser.add_argument("--sample_rate", type=int, default=16000,
                         help="Target sample rate for model (default: 16000)")
@@ -312,17 +371,19 @@ if __name__ == "__main__":
                         help="Number of attention heads for transformer (default: 4)")
     parser.add_argument("--verbose", action="store_true",
                         help="Print probability scores for each class")
-    parser.add_argument("--output_file", type=str, default=None,
-                        help="Path to output file for saving predictions")
+    parser.add_argument("--output_file", type=str, default="outputs/inference.csv",
+                        help="Path to output CSV file for saving predictions (default: outputs/inference.csv)")
     parser.add_argument("--filter_type", type=str, default="majority",
-                        choices=["none", "kalman", "majority"],
+                        choices=["none", "kalman", "majority", "exponential_moving_average"],
                         help="Filter type for post-processing predictions (default: majority)")
-    parser.add_argument("--filter_window", type=int, default=5,
+    parser.add_argument("--filter_window", type=int, default=10,
                         help="Window size for majority voting filter (default: 5)")
     parser.add_argument("--filter_process_noise", type=float, default=0.01,
                         help="Process noise for Kalman filter (default: 0.01)")
     parser.add_argument("--filter_measurement_noise", type=float, default=0.1,
                         help="Measurement noise for Kalman filter (default: 0.1)")
+    parser.add_argument("--filter_alpha", type=float, default=0.3,
+                        help="Smoothing factor for exponential moving average filter (default: 0.3)")
     
     args = parser.parse_args()
     main(args)
