@@ -199,9 +199,9 @@ if __name__ == "__main__":
     print(f"Sample shape: {processed.shape}, Label: {label}")
     
     # Test visualization
-    dataset.view(0, method="mel")
-    dataset.view(0, method="fft")
-    dataset.view(0, method="raw")
+    # dataset.view(0, method="mel")
+    # dataset.view(0, method="fft")
+    # dataset.view(0, method="raw")
     
     # Example with DataLoader
     from torch.utils.data import DataLoader
