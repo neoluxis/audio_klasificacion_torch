@@ -405,7 +405,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Predict audio classification using trained PyTorch model")
-    parser.add_argument("--task_dir", type=str, default="./runs/task1",
+    parser.add_argument("--task_dir", type=str, default="./runs/task2",
                         help="Path to task directory containing model_config.yaml (default: ./runs/task1)")
     parser.add_argument("--model_path", type=str, default=None,
                         help="Path to PyTorch model file (.pth). Defaults to task_dir/best_model.pth")
@@ -415,8 +415,10 @@ if __name__ == "__main__":
                         help="Path to input WAV file")
     parser.add_argument("--input_mic", type=str, default=None,
                         help="Microphone device (e.g., hw:2)")
-    parser.add_argument("--input_stream", type=str, default=None,
+    parser.add_argument("--input_stream", type=str, default='neolux5:40918',
                         help="Server address for audio stream (e.g., neolux5:40918)")
+    # parser.add_argument("--input_stream", type=str, default=None,
+    #                     help="Server address for audio stream (e.g., neolux5:40918)")
     parser.add_argument("--input_folder", type=str, default=None,
                         help="Path to folder containing WAV files for prediction or test set evaluation")
     parser.add_argument("--input_sr", type=int, default=44100,

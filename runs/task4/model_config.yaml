@@ -1,0 +1,25 @@
+batch_size: 32
+classes:
+- Bearded Seal
+- Beluga White Whale
+- Harp Seal
+- Humpback Whale
+- Killer Whale
+- Long-Finned Pilot Whale
+- Northern Right Whale
+- Pantropical Spotted Dolphin
+- Ross Seal
+- Sperm Whale
+- Walrus
+- White-beaked Dolphin
+- khong
+config_path: configs/model_mel.yaml
+dataset_path: ./clean
+epochs: 50
+learning_rate: 0.001
+num_classes: 13
+output_directory: ./runs/task4
+preprocess: mel
+pretrained_model: None
+sample_rate: 16000
+seed: 42

@@ -1,12 +1,14 @@
-vv drwxr-xr-x 1 neolux neolux 32 Apr 26 21:19 'Bearded Seal'
-xx drwxr-xr-x 1 neolux neolux 44 Apr 26 21:19 'Beluga White Whale'
-xx drwxr-xr-x 1 neolux neolux 60 Apr 26 21:19 'Harp Seal'
-vv drwxr-xr-x 1 neolux neolux 36 Apr 26 21:19 'Humpback Whale'
-vv drwxr-xr-x 1 neolux neolux 32 Apr 26 21:19 'Killer Whale'
-vv drwxr-xr-x 1 neolux neolux 54 Apr 26 21:19 'Long-Finned Pilot Whale'
-xv drwxr-xr-x 1 neolux neolux 48 Apr 26 21:19 'Northern Right Whale'
-xx drwxr-xr-x 1 neolux neolux 62 Apr 26 21:19 'Pantropical Spotted Dolphin'
-xx drwxr-xr-x 1 neolux neolux 26 Apr 26 21:19 'Ross Seal'
-vx drwxr-xr-x 1 neolux neolux 30 Apr 26 21:19 'Sperm Whale'
-vx drwxr-xr-x 1 neolux neolux 20 Apr 26 21:19  Walrus
-vv drwxr-xr-x 1 neolux neolux 48 Apr 26 21:19 'White-beaked Dolphin'
+|           Modelul           | Mel Alca | Mel Nouv |
+| :-------------------------: | :------: | -------- |
+|        Bearded Seal        |    v    |          |
+|     Beluga White Whale     |    x    |          |
+|          Harp Seal          |    x    |          |
+|       Humpback Whale       |    x    |          |
+|        Killer Whale        |    v    |          |
+|   Long-Finned Pilot Whale   |    v    |          |
+|    Northern Right Whale    |    x    |          |
+| Pantropical Spotted Dolphin |    x    |          |
+|          Ross Seal          |    x    |          |
+|         Sperm Whale         |    x    |          |
+|           Walrus           |    x    |          |
+|    White-beaked Dolphin    |    x    |          |
