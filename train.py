@@ -324,7 +324,7 @@ if __name__ == "__main__":
                         help="Path to model YAML config (default: configs/model_<preprocess>.yaml)")
     parser.add_argument("--dataset_path", type=str, default="./clean",
                         help="Path to dataset directory (default: ./clean)")
-    parser.add_argument("--batch_size", type=int, default=128,
+    parser.add_argument("--batch_size", type=int, default=32,
                         help="Batch size (default: 32)")
     parser.add_argument("--sample_rate", type=int, default=16000,
                         help="Sample rate of audio (default: 16000)")

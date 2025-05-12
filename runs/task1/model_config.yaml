@@ -18,7 +18,7 @@ dataset_path: ./clean
 epochs: 50
 learning_rate: 0.001
 num_classes: 13
-output_directory: ./runs/task3
+output_directory: ./runs/task1
 preprocess: mel
 pretrained_model: None
 sample_rate: 16000

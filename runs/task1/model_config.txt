@@ -9,4 +9,4 @@ Epochs: 50
 Learning Rate: 0.001
 Pretrained Model: None
 Seed: 42
-Output Directory: ./runs/task3
+Output Directory: ./runs/task1
