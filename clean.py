@@ -154,7 +154,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--overlap",
         type=float,
-        default=0.6,
+        default=0.8,
         help="overlap ratio for generating segments (0.0 to 1.0, default: 0.0)",
     )
     args = parser.parse_args()

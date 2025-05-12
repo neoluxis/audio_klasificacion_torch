@@ -5,7 +5,7 @@ import os
 import torch
 from torch.utils.data import DataLoader, SubsetRandomSampler
 from dataset import CleanAudioDataset
-from model import ModelFactory
+from model import ModelBuilder
 import torch.nn as nn
 import torch.optim as optim
 from sklearn.metrics import f1_score, confusion_matrix
@@ -13,13 +13,23 @@ import numpy as np
 from torch.utils.tensorboard import SummaryWriter
 import matplotlib.pyplot as plt
 import seaborn as sns
+import yaml
 from datetime import datetime
 import shutil
-from tqdm.rich import tqdm
+from rich.progress import Progress, TextColumn, BarColumn, TimeRemainingColumn
 import warnings
-from tqdm import TqdmExperimentalWarning
 
-warnings.filterwarnings("ignore", category=TqdmExperimentalWarning)
+# Suppress any experimental warnings if needed
+warnings.filterwarnings("ignore")
+
+
+def set_seed(seed):
+    """Set random seed for reproducibility."""
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
 
 
 def get_task_dir(output_dir):
@@ -72,9 +82,26 @@ def plot_confusion_matrix(cm, class_names, save_path):
 
 
 def save_model_config(args, task_dir, class_names):
-    """Save model configuration and dataset details."""
-    config = [
-        f"Model Type: {args.model_type}",
+    """Save model configuration as text and YAML."""
+    config_dict = {
+        "preprocess": args.preprocess,
+        "config_path": args.config_path,
+        "dataset_path": args.dataset_path,
+        "classes": class_names,
+        "num_classes": len(class_names),
+        "sample_rate": args.sample_rate,
+        "batch_size": args.batch_size,
+        "epochs": args.epochs,
+        "learning_rate": args.lr,
+        "pretrained_model": args.pretrained_model if args.pretrained_model else "None",
+        "seed": args.seed,
+        "output_directory": task_dir
+    }
+    
+    # Save as text
+    config_text = [
+        f"Preprocess: {args.preprocess}",
+        f"Config Path: {args.config_path}",
         f"Dataset Path: {args.dataset_path}",
         f"Classes: {', '.join(class_names)}",
         f"Number of Classes: {len(class_names)}",
@@ -82,24 +109,33 @@ def save_model_config(args, task_dir, class_names):
         f"Batch Size: {args.batch_size}",
         f"Epochs: {args.epochs}",
         f"Learning Rate: {args.lr}",
-        f"Hidden Size: {args.hidden_size}",
-        f"Num Layers: {args.num_layers}",
-        f"D Model (Transformer): {args.d_model}",
-        f"Nhead (Transformer): {args.nhead}",
         f"Pretrained Model: {args.pretrained_model if args.pretrained_model else 'None'}",
+        f"Seed: {args.seed}",
         f"Output Directory: {task_dir}"
     ]
     with open(os.path.join(task_dir, "model_config.txt"), "w") as f:
-        f.write("\n".join(config))
+        f.write("\n".join(config_text))
+    
+    # Save as YAML
+    with open(os.path.join(task_dir, "model_config.yaml"), "w") as f:
+        yaml.safe_dump(config_dict, f, default_flow_style=False)
 
 
 def train_model(args):
+    # Set random seed
+    set_seed(args.seed)
+    
     # Set device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     # Load dataset
     try:
-        dataset = CleanAudioDataset(root_dir=args.dataset_path, sample_rate=args.sample_rate, duration=1.0)
+        dataset = CleanAudioDataset(
+            root_dir=args.dataset_path,
+            sample_rate=args.sample_rate,
+            duration=1.0,
+            preprocess=args.preprocess
+        )
     except ValueError as e:
         raise ValueError(f"Failed to load dataset: {str(e)}")
     
@@ -108,7 +144,6 @@ def train_model(args):
     
     # Train-validation split
     indices = list(range(len(dataset)))
-    np.random.seed(42)
     np.random.shuffle(indices)
     split = int(0.8 * len(dataset))
     train_indices, val_indices = indices[:split], indices[split:]
@@ -120,24 +155,12 @@ def train_model(args):
     val_loader = DataLoader(dataset, batch_size=args.batch_size, sampler=val_sampler, num_workers=0)
     
     # Create model
-    model_kwargs = {
-        "n_classes": n_classes,
-        "sample_rate": args.sample_rate,
-        "in_channels": 1,
-    }
-    if args.model_type in ["conv_rnn", "lstm", "resnet_rnn"]:
-        model_kwargs.update({
-            "hidden_size": args.hidden_size,
-            "num_layers": args.num_layers
-        })
-    if args.model_type == "transformer":
-        model_kwargs.update({
-            "d_model": args.d_model,
-            "nhead": args.nhead,
-            "num_layers": args.num_layers
-        })
-    
-    model = ModelFactory.create_model(args.model_type, **model_kwargs)
+    model = ModelBuilder.build_model(
+        config_path=args.config_path,
+        num_classes=n_classes,
+        sample_rate=args.sample_rate,
+        duration=1.0
+    )
     model = model.to(device)
     
     # Load pretrained model if specified
@@ -174,40 +197,76 @@ def train_model(args):
             model.train()
             train_loss = 0.0
             train_preds, train_labels = [], []
+            train_batches = 0
             
-            for waveforms, labels in tqdm(train_loader, desc=f"Epoch {epoch+1}/{args.epochs} [Train]"):
-                waveforms, labels = waveforms.to(device), labels.to(device)
-                optimizer.zero_grad()
-                outputs = model(waveforms)
-                loss = criterion(outputs, labels)
-                loss.backward()
-                optimizer.step()
+            with Progress(
+                TextColumn("[progress.description]{task.description}"),
+                BarColumn(),
+                TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
+                TextColumn("Batch {task.completed}/{task.total}"),
+                TimeRemainingColumn(),
+                TextColumn("Loss: {task.fields[loss]:.4f}"),
+                TextColumn("F1: {task.fields[f1]:.4f}")
+            ) as progress:
+                train_task = progress.add_task(f"Epoch {epoch+1}/{args.epochs} [Train]", total=len(train_loader), loss=0.0, f1=0.0)
                 
-                train_loss += loss.item()
-                preds = torch.argmax(outputs, dim=1).cpu().numpy()
-                train_preds.extend(preds)
-                train_labels.extend(labels.cpu().numpy())
+                for waveforms, labels in train_loader:
+                    waveforms, labels = waveforms.to(device), labels.to(device)
+                    optimizer.zero_grad()
+                    outputs = model(waveforms)
+                    loss = criterion(outputs, labels)
+                    loss.backward()
+                    optimizer.step()
+                    
+                    train_loss += loss.item()
+                    train_batches += 1
+                    preds = torch.argmax(outputs, dim=1).cpu().numpy()
+                    train_preds.extend(preds)
+                    train_labels.extend(labels.cpu().numpy())
+                    
+                    # Update running metrics
+                    running_train_loss = train_loss / train_batches
+                    running_train_f1 = f1_score(train_labels, train_preds, average="macro")
+                    progress.update(train_task, advance=1, loss=running_train_loss, f1=running_train_f1)
             
-            train_loss /= len(train_loader)
+            train_loss /= train_batches
             train_f1 = f1_score(train_labels, train_preds, average="macro")
             
             # Validation
             model.eval()
             val_loss = 0.0
             val_preds, val_labels = [], []
+            val_batches = 0
             
-            with torch.no_grad():
-                for waveforms, labels in tqdm(val_loader, desc=f"Epoch {epoch+1}/{args.epochs} [Val]"):
-                    waveforms, labels = waveforms.to(device), labels.to(device)
-                    outputs = model(waveforms)
-                    loss = criterion(outputs, labels)
-                    
-                    val_loss += loss.item()
-                    preds = torch.argmax(outputs, dim=1).cpu().numpy()
-                    val_preds.extend(preds)
-                    val_labels.extend(labels.cpu().numpy())
+            with Progress(
+                TextColumn("[progress.description]{task.description}"),
+                BarColumn(),
+                TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
+                TextColumn("Batch {task.completed}/{task.total}"),
+                TimeRemainingColumn(),
+                TextColumn("Loss: {task.fields[loss]:.4f}"),
+                TextColumn("F1: {task.fields[f1]:.4f}")
+            ) as progress:
+                val_task = progress.add_task(f"Epoch {epoch+1}/{args.epochs} [Val]", total=len(val_loader), loss=0.0, f1=0.0)
+                
+                with torch.no_grad():
+                    for waveforms, labels in val_loader:
+                        waveforms, labels = waveforms.to(device), labels.to(device)
+                        outputs = model(waveforms)
+                        loss = criterion(outputs, labels)
+                        
+                        val_loss += loss.item()
+                        val_batches += 1
+                        preds = torch.argmax(outputs, dim=1).cpu().numpy()
+                        val_preds.extend(preds)
+                        val_labels.extend(labels.cpu().numpy())
+                        
+                        # Update running metrics
+                        running_val_loss = val_loss / val_batches
+                        running_val_f1 = f1_score(val_labels, val_preds, average="macro")
+                        progress.update(val_task, advance=1, loss=running_val_loss, f1=running_val_f1)
             
-            val_loss /= len(val_loader)
+            val_loss /= val_batches
             val_f1 = f1_score(val_labels, val_preds, average="macro")
             
             # Save best model
@@ -224,7 +283,7 @@ def train_model(args):
             writer.add_scalar("F1/Val", val_f1, epoch)
             
             # Compute confusion matrix
-            cm = confusion_matrix(val_labels, val_preds)
+            cm = confusion_matrix(val_labels, val_labels)
             fig = plt.figure(figsize=(8, 6))
             sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=class_names, yticklabels=class_names)
             writer.add_figure("Confusion Matrix", fig, epoch)
@@ -236,8 +295,6 @@ def train_model(args):
             train_f1s.append(train_f1)
             val_f1s.append(val_f1)
             
-            print(f"Epoch {epoch+1}/{args.epochs}, Train Loss: {train_loss:.4f}, Val Loss: {val_loss:.4f}, "
-                  f"Train F1: {train_f1:.4f}, Val F1: {val_f1:.4f}")
     except KeyboardInterrupt:
         print("Training interrupted. Saving current model...")
     
@@ -260,13 +317,15 @@ def train_model(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train audio classification model")
-    parser.add_argument("--model_type", type=str, default="resnet",
-                        choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn", "resnet_transformer"],
-                        help="Model type (default: resnet_rnn)")
+    parser.add_argument("--preprocess", type=str, default="mel",
+                        choices=["raw", "fft", "mel"],
+                        help="Preprocessing type (default: mel)")
+    parser.add_argument("--config_path", type=str, default=None,
+                        help="Path to model YAML config (default: configs/model_<preprocess>.yaml)")
     parser.add_argument("--dataset_path", type=str, default="./clean",
                         help="Path to dataset directory (default: ./clean)")
-    parser.add_argument("--batch_size", type=int, default=32,
-                        help="Batch size (default: 1)")
+    parser.add_argument("--batch_size", type=int, default=128,
+                        help="Batch size (default: 32)")
     parser.add_argument("--sample_rate", type=int, default=16000,
                         help="Sample rate of audio (default: 16000)")
     parser.add_argument("--epochs", type=int, default=50,
@@ -275,16 +334,15 @@ if __name__ == "__main__":
                         help="Output directory for task folders (default: ./runs)")
     parser.add_argument("--lr", type=float, default=0.001,
                         help="Learning rate (default: 0.001)")
-    parser.add_argument("--hidden_size", type=int, default=128,
-                        help="Hidden size for conv_rnn, lstm, and resnet_rnn (default: 128)")
-    parser.add_argument("--num_layers", type=int, default=3,
-                        help="Number of layers for conv_rnn, lstm, transformer, and resnet_rnn (default: 2)")
-    parser.add_argument("--d_model", type=int, default=64,
-                        help="Embedding dimension for transformer (default: 64)")
-    parser.add_argument("--nhead", type=int, default=4,
-                        help="Number of attention heads for transformer (default: 4)")
     parser.add_argument("--pretrained_model", type=str, default=None,
                         help="Path to pretrained model file (default: None)")
+    parser.add_argument("--seed", type=int, default=42,
+                        help="Random seed for reproducibility (default: 42)")
     
     args = parser.parse_args()
+    
+    # Set default config_path based on preprocess if not provided
+    if args.config_path is None:
+        args.config_path = f"configs/model_{args.preprocess}.yaml"
+    
     train_model(args)

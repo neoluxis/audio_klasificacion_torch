@@ -1,34 +1,16 @@
-model:
-  input_type: fft
-  num_classes: 12
-  blocks:
-    - type: cnn
-      in_channels: 1
-      out_channels: 32
-      kernel_size: 5
-      stride: 2
-      padding: 2
-      pool: max
-      pool_kernel: 2
-      is_1d: true
-    - type: cnn
-      in_channels: 32
-      out_channels: 64
-      kernel_size: 5
-      stride: 2
-      padding: 2
-      pool: max
-      pool_kernel: 2
-      is_1d: true
-    - type: adaptive_pool
-      output_size: [4]
-      is_1d: true
-    - type: flatten
-    - type: gru
-      input_size: 256  # 64 * 4
-      hidden_size: 128
-      num_layers: 2
-      dropout: 0.3
-    - type: fc
-      in_features: 128
-      out_features: 12
+preprocess: fft
+blocks:
+  - type: cnn
+    initial_channels: 16
+    num_cnn_layers: 3
+    kernel_size: 3
+    stride: 1
+    padding: 1
+    pool_kernel: 2
+  - type: gru
+    hidden_size: 128
+    num_layers: 1
+    dropout: 0.0
+  - type: fc
+    out_features: 128
+    dropout: 0.5
