@@ -9,11 +9,9 @@ from librosa.core import resample as librosa_resample, to_mono
 from tqdm.rich import tqdm
 import warnings
 from tqdm import TqdmExperimentalWarning
-
 import wavio
 
 warnings.filterwarnings("ignore", category=TqdmExperimentalWarning)
-
 
 def envelope(y, rate, threshold):
     mask = []
@@ -25,7 +23,6 @@ def envelope(y, rate, threshold):
         else:
             mask.append(False)
     return mask, y_mean
-
 
 def downsample_mono(path, sr):
     try:
@@ -47,7 +44,6 @@ def downsample_mono(path, sr):
     except Exception as exc:
         raise Exception(f"Error processing {path}: {str(exc)}") from exc
 
-
 def save_sample(sample, rate, target_dir, fn, ix):
     fn = fn.split(".wav")[0]
     dst_path = os.path.join(target_dir.split(".")[0], fn + "_{}.wav".format(str(ix)))
@@ -55,16 +51,15 @@ def save_sample(sample, rate, target_dir, fn, ix):
         return
     wavfile.write(dst_path, rate, sample)
 
-
 def check_dir(path):
     if os.path.exists(path) is False:
         os.mkdir(path)
-
 
 def split_wavs(args):
     src_root = args.src_root
     dst_root = args.dst_root
     dt = args.delta_time
+    overlap = args.overlap
 
     wav_paths = glob("{}/**".format(src_root), recursive=True)
     wav_paths = [x for x in wav_paths if ".wav" in x]
@@ -81,15 +76,16 @@ def split_wavs(args):
                 mask, y_mean = envelope(wav, rate, threshold=args.threshold)
                 wav = wav[mask]
                 delta_sample = int(dt * rate)
+                step_size = int(delta_sample * (1 - overlap))  # Step size based on overlap
 
                 if wav.shape[0] < delta_sample:
                     sample = np.zeros(shape=(delta_sample,), dtype=np.int16)
-                    sample[: wav.shape[0]] = wav
+                    sample[:wav.shape[0]] = wav
                     save_sample(sample, rate, target_dir, fn, 0)
                 else:
-                    trunc = wav.shape[0] % delta_sample
+                    # Generate overlapping segments
                     for cnt, i in enumerate(
-                        np.arange(0, wav.shape[0] - trunc, delta_sample)
+                        np.arange(0, wav.shape[0] - delta_sample + 1, step_size)
                     ):
                         start = int(i)
                         stop = int(i + delta_sample)
@@ -97,7 +93,6 @@ def split_wavs(args):
                         save_sample(sample, rate, target_dir, fn, cnt)
             except Exception as exc:
                 print(f"Error processing {src_fn}: {str(exc)}")
-
 
 def test_threshold(args):
     src_root = args.src_root
@@ -115,8 +110,7 @@ def test_threshold(args):
     plt.plot(env, color="m", label="envelope")
     plt.grid(False)
     plt.legend(loc="best")
-    plt.show()
-
+    plt.savefig("signal_envelope.png")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Cleaning audio data")
@@ -157,6 +151,16 @@ if __name__ == "__main__":
         default=20.0,
         help="threshold magnitude for np.int16 dtype",
     )
-    args, _ = parser.parse_known_args()
+    parser.add_argument(
+        "--overlap",
+        type=float,
+        default=0.6,
+        help="overlap ratio for generating segments (0.0 to 1.0, default: 0.0)",
+    )
+    args = parser.parse_args()
+
+    # Validate overlap
+    if args.overlap < 0.0 or args.overlap >= 1.0:
+        raise ValueError("Overlap ratio must be between 0.0 and 1.0")
 
     split_wavs(args)

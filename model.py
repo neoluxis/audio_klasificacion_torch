@@ -259,40 +259,80 @@ class ResNetRNN(nn.Module):
         x = self.fc(x)
         return x
 
-
-class SincNet(nn.Module):
-    def __init__(self, n_classes, sample_rate, in_channels=1):
-        super(SincNet, self).__init__()
-        self.sinc_conv = nn.Conv1d(in_channels, 80, kernel_size=251, stride=1, padding=125)
-        self.bn1 = nn.BatchNorm1d(80)
-        self.relu = nn.ReLU()
-        self.pool = nn.MaxPool1d(kernel_size=3)
-        self.conv2 = nn.Conv1d(80, 60, kernel_size=5)
-        self.bn2 = nn.BatchNorm1d(60)
-        self.conv3 = nn.Conv1d(60, 60, kernel_size=5)
-        self.bn3 = nn.BatchNorm1d(60)
-        self.global_pool = nn.AdaptiveAvgPool1d(1)
-        self.fc = nn.Linear(60, n_classes)
+class ResNetTransformer(nn.Module):
+    def __init__(self, n_classes, sample_rate, in_channels=1, d_model=64, nhead=4, num_layers=2):
+        super(ResNetTransformer, self).__init__()
         
+        # ResNet-like feature extractor
+        self.conv1 = nn.Conv1d(in_channels, 64, kernel_size=80, stride=4)
+        self.bn1 = nn.BatchNorm1d(64)
+        self.relu = nn.ReLU()
+        self.pool = nn.MaxPool1d(kernel_size=4)
+        self.res_block1 = nn.Sequential(
+            nn.Conv1d(64, 64, kernel_size=3, padding=1),
+            nn.BatchNorm1d(64),
+            nn.ReLU(),
+            nn.Conv1d(64, 64, kernel_size=3, padding=1),
+            nn.BatchNorm1d(64)
+        )
+        self.res_block2 = nn.Sequential(
+            nn.Conv1d(64, 64, kernel_size=3, padding=1),
+            nn.BatchNorm1d(64),
+            nn.ReLU(),
+            nn.Conv1d(64, 64, kernel_size=3, padding=1),
+            nn.BatchNorm1d(64)
+        )
+        
+        # Calculate sequence length after ResNet
         expected_length = sample_rate
-        length = (expected_length - 2) // 3
-        length = (length - 4) // 1
-        length = (length - 4) // 1
+        length = expected_length // 4 // 4
         if length <= 0:
             raise ValueError(f"Input length too short for sample_rate={sample_rate}")
+        
+        self.sequence_length = length
+        self.feature_size = 64  # Number of channels after ResNet
+        
+        # Transformer encoder
+        self.embedding = nn.Linear(self.feature_size, d_model)
+        self.pos_encoder = nn.Parameter(torch.randn(1, self.sequence_length, d_model))
+        encoder_layer = nn.TransformerEncoderLayer(d_model=d_model, nhead=nhead, batch_first=True)
+        self.transformer = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
+        self.fc = nn.Linear(d_model, n_classes)
     
     def forward(self, x):
-        x = self.sinc_conv(x)
+        # ResNet feature extraction
+        x = self.conv1(x)
         x = self.bn1(x)
         x = self.relu(x)
         x = self.pool(x)
-        x = self.conv2(x)
-        x = self.bn2(x)
+        res = x
+        x = self.res_block1(x)
+        x = x + res
         x = self.relu(x)
-        x = self.conv3(x)
-        x = self.bn3(x)
+        res = x
+        x = self.res_block2(x)
+        x = x + res
         x = self.relu(x)
-        x = self.global_pool(x)
-        x = x.squeeze(-1)
-        x = self.fc(x)
+        
+        # Prepare for Transformer
+        x = x.transpose(1, 2)  # [batch_size, sequence_length, feature_size]
+        x = self.embedding(x)  # [batch_size, sequence_length, d_model]
+        x = x + self.pos_encoder[:, :x.size(1), :]  # Add positional encoding
+        
+        # Transformer
+        x = self.transformer(x)  # [batch_size, sequence_length, d_model]
+        x = x.mean(dim=1)  # Global average pooling over sequence length
+        
+        # Final classification
+        x = self.fc(x)  # [batch_size, n_classes]
         return x
+
+if __name__ == "__main__":
+    # Example usage
+    model = ModelFactory.create_model("conv1d", n_classes=10, sample_rate=16000)
+    print(model)
+    
+    # Dummy input
+    x = torch.randn(32, 1, 16000)  # Batch size of 32, 1 channel, 16000 samples
+    output = model(x)
+    print(output.shape)  # Should be [32, 10]

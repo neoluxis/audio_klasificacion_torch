@@ -261,12 +261,12 @@ def train_model(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train audio classification model")
     parser.add_argument("--model_type", type=str, default="resnet",
-                        choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn", "sincnet"],
+                        choices=["conv1d", "conv_rnn", "lstm", "transformer", "resnet", "resnet_rnn", "resnet_transformer"],
                         help="Model type (default: resnet_rnn)")
     parser.add_argument("--dataset_path", type=str, default="./clean",
                         help="Path to dataset directory (default: ./clean)")
     parser.add_argument("--batch_size", type=int, default=32,
-                        help="Batch size (default: 32)")
+                        help="Batch size (default: 1)")
     parser.add_argument("--sample_rate", type=int, default=16000,
                         help="Sample rate of audio (default: 16000)")
     parser.add_argument("--epochs", type=int, default=50,
@@ -277,7 +277,7 @@ if __name__ == "__main__":
                         help="Learning rate (default: 0.001)")
     parser.add_argument("--hidden_size", type=int, default=128,
                         help="Hidden size for conv_rnn, lstm, and resnet_rnn (default: 128)")
-    parser.add_argument("--num_layers", type=int, default=2,
+    parser.add_argument("--num_layers", type=int, default=3,
                         help="Number of layers for conv_rnn, lstm, transformer, and resnet_rnn (default: 2)")
     parser.add_argument("--d_model", type=int, default=64,
                         help="Embedding dimension for transformer (default: 64)")
