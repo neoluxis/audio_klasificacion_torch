@@ -317,7 +317,7 @@ def train_model(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train audio classification model")
-    parser.add_argument("--preprocess", type=str, default="mel",
+    parser.add_argument("--preprocess", type=str, default="fft",
                         choices=["raw", "fft", "mel"],
                         help="Preprocessing type (default: mel)")
     parser.add_argument("--config_path", type=str, default=None,

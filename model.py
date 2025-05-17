@@ -157,7 +157,7 @@ class ModelBuilder:
 
 
 if __name__ == "__main__":
-    config_path = "configs/model_mel.yaml"
+    config_path = "configs/model_fft.yaml"
     sample_rate = 16000
     duration = 1.0
     num_classes = 10  # Arbitrary for testing
@@ -167,18 +167,18 @@ if __name__ == "__main__":
     with open(config_path, 'r') as f:
         config = yaml.safe_load(f)
     
-    preprocess = config.get('preprocess')
-    n_mels = config.get('n_mels', 128)
-    hop_length = config.get('hop_length', 512)
+    # preprocess = config.get('preprocess')
+    # n_mels = config.get('n_mels', 128)
+    # hop_length = config.get('hop_length', 512)
     
-    if preprocess != "mel":
-        raise ValueError(f"Expected 'mel' preprocessing in {config_path}, got {preprocess}")
+    # if preprocess != "mel":
+    #     raise ValueError(f"Expected 'mel' preprocessing in {config_path}, got {preprocess}")
     
-    input_shape = get_input_shape(preprocess, sample_rate, duration, n_mels, hop_length)
-    print(f"Input shape for {preprocess}: {input_shape}")
+    # input_shape = get_input_shape(preprocess, sample_rate, duration, n_mels, hop_length)
+    # print(f"Input shape for {preprocess}: {input_shape}")
     
     # Create dummy input
-    input_tensor = torch.randn(batch_size, input_shape[0], input_shape[1])  # [batch, n_mels, time_frames]
+    # input_tensor = torch.randn(batch_size, input_shape[0], input_shape[1])  # [batch, n_mels, time_frames]
     
     # Build model
     model = ModelBuilder.build_model(

@@ -96,6 +96,7 @@ class CleanAudioDataset(Dataset):
             elif self.preprocess == "fft":
                 frq, mag = process_fft(audio, self.sample_rate)
                 processed = torch.from_numpy(mag).float()  # Return magnitudes only
+                processed = processed.unsqueeze(0)  # Add channel dimension
             else:
                 raise ValueError(f"Unknown preprocess method: {self.preprocess}")
             
@@ -190,7 +191,7 @@ class CleanAudioDataset(Dataset):
 
 if __name__ == "__main__":
     # Example usage
-    dataset = CleanAudioDataset(root_dir="clean", sample_rate=16000, duration=1.0, preprocess="raw")
+    dataset = CleanAudioDataset(root_dir="clean", sample_rate=16000, duration=1.0, preprocess="fft")
     print(f"Dataset size: {len(dataset)}")
     print(f"Classes: {dataset.get_class_names()}")
     
